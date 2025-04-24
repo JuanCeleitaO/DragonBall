@@ -1,0 +1,77 @@
+.character-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  background-image: url('https://images6.alphacoders.com/640/640445.jpg');
+  min-height: 100vh;
+  width: 81vw;
+  box-sizing: border-box;
+  margin-left: 300px;
+}
+
+.character-card {
+  display: flex;
+  background-color: #2c2c2c;
+  border-radius: 20px;
+  max-width: 1000px;
+  overflow: hidden;
+  background-color: transparent;
+  width: 100%;
+}
+
+.character-image {
+  flex: 1;
+  background-color: #12121200;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+
+.character-image img {
+  max-height: 400px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.character-image:hover img {
+  transform: scale(1.2);
+}
+
+
+.character-image img {
+  max-height: 400px;
+  width: auto;
+  object-fit: contain;
+}
+
+.character-info {
+  flex: 2;
+  padding: 2rem;
+  color: white;
+  border-radius: 20px;
+  text-align: left;
+  background-color: #2c2c2c;
+}
+
+.character-info h2 {
+  font-size: 2rem;
+  color: #ff9800;
+  margin-bottom: 1rem;
+}
+
+.character-info p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.character-info p strong {
+  color: #f4c842;
+}

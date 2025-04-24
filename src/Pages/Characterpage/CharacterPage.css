@@ -1,0 +1,49 @@
+#character-page{
+    background-color: rgba(243, 235, 235, 0);
+    background-size: contain;
+    background-image: url('https://images6.alphacoders.com/640/640445.jpg');
+    background-position: center; 
+    margin-left: 270px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-decoration: none; 
+}
+
+#title-character {
+    margin: 20px;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(45deg, #fffbfb, #ffffff);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(225, 255, 1, 0.5);
+}
+#characters-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-decoration: none;
+}
+
+#per{
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #121212;
+    font-weight: 600;
+}
+#gen{
+    font-size: 2.75em;
+    color: #0e0e0e;
+    margin-top: 30px;
+    font-weight: 500;
+    border-bottom: 2px solid #b19860;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 6px #0e0e0e;
+}

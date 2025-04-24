@@ -1,0 +1,116 @@
+.charCard {
+    width: 300px;
+    height: 600px;
+    background-color: #2C2F33;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: transparent;
+    overflow: visible; 
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; 
+    overflow: visible; 
+    background-color: transparent;
+    background-position: center center;
+    background-size: cover;
+    position: relative; 
+}
+
+.characterImage {
+    width: 100%;
+    max-width: 180px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    position: absolute;
+    top: 10px; 
+}
+
+  .imageContainer:hover .characterImage {
+    transform: scale(1.2);
+    text-decoration: none;
+  }
+  
+  .contentContainer {
+    padding: 12px;
+    font-size: 10px;
+    text-decoration: none;
+    background-color: #2C2F33;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; 
+  }
+  
+  .characterName {
+    font-weight: bold;
+    color: white;
+    margin: 8px 0;
+    text-decoration: none; 
+    
+  }
+  
+  .characterSpecies {
+    color: #FFD700;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-decoration: none;
+  }
+  .characterGender{
+    color: #FFD700;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-decoration: none;
+  }
+  
+  .characterStats {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+  }
+  
+  .characterStats div {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+  
+  .statLabel {
+  color: #AAA;
+  font-size: 20px;
+  text-decoration: none;
+  }
+  
+  .statValue {
+    color: #FFD700;
+
+    font-weight: bold;
+    text-decoration: none;
+  }
+ 
+  img{
+    height: 100%;
+  }
+
+  a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
